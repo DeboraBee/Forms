@@ -1,8 +1,8 @@
-[gd_scene load_steps=2 format=3 uid="uid://bqlmwceddka07"]
+[gd_scene format=3 uid="uid://bqlmwceddka07"]
 
 [ext_resource type="Script" uid="uid://iaa16vayji3i" path="res://tela_cadastro.gd" id="1_2v4ww"]
 
-[node name="TelaCadastro" type="Control"]
+[node name="TelaCadastro" type="Control" unique_id=557312814]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -11,7 +11,7 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_2v4ww")
 
-[node name="VBoxContainer" type="VBoxContainer" parent="."]
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=924571578]
 layout_mode = 0
 offset_left = 447.0
 offset_top = 226.0
@@ -19,34 +19,34 @@ offset_right = 741.0
 offset_bottom = 397.0
 theme_override_constants/separation = 10
 
-[node name="LabelTitulo" type="Label" parent="VBoxContainer"]
+[node name="LabelTitulo" type="Label" parent="VBoxContainer" unique_id=1659428391]
 layout_mode = 2
 text = "Formulário de Cadastro"
 horizontal_alignment = 1
 
-[node name="InputNome" type="LineEdit" parent="VBoxContainer"]
+[node name="InputNome" type="LineEdit" parent="VBoxContainer" unique_id=1274274283]
 layout_mode = 2
 placeholder_text = "Nome Completo"
 
-[node name="InputEmail" type="LineEdit" parent="VBoxContainer"]
+[node name="InputEmail" type="LineEdit" parent="VBoxContainer" unique_id=1689441916]
 layout_mode = 2
 placeholder_text = "E-mail"
 
-[node name="InputSenha" type="LineEdit" parent="VBoxContainer"]
+[node name="InputSenha" type="LineEdit" parent="VBoxContainer" unique_id=484875910]
 layout_mode = 2
 placeholder_text = "Senha"
 secret = true
 
-[node name="InputConfirmarSenha" type="LineEdit" parent="VBoxContainer"]
+[node name="InputConfirmarSenha" type="LineEdit" parent="VBoxContainer" unique_id=1856134883]
 layout_mode = 2
 placeholder_text = "Confirmar Senha"
 secret = true
 
-[node name="BotaoCadastrar" type="Button" parent="VBoxContainer"]
+[node name="BotaoCadastrar" type="Button" parent="VBoxContainer" unique_id=689177561]
 layout_mode = 2
 text = "Cadastrar"
 
-[node name="LabelMensagem" type="Label" parent="VBoxContainer"]
+[node name="LabelMensagem" type="Label" parent="VBoxContainer" unique_id=760785765]
 layout_mode = 2
 text = "..."
 horizontal_alignment = 1
